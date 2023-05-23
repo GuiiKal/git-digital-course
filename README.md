@@ -18,4 +18,6 @@
 * envia as alterações para o repositório remoto 
 # Git pull:
 * faz a copia atualizada do repositório remoto
+# Git fetch
+* pega as informações atualizadas do repositório remoto, mas não coloca no código local, apenas baixa as mudanças atualizadas para você ver as modifiações que podem ser feitas. 
 
