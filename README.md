@@ -12,4 +12,6 @@
 # Git log: 
 * mostra o histórico dos commits realizados 
 
-* Uso de comando restore - git restore - ele remove uma modificação de um arquivo em que você deseja 
+# Git restore:
+* ele remove uma modificação de um arquivo em que você deseja 
+
