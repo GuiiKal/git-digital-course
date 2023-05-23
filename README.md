@@ -14,4 +14,8 @@
 
 # Git restore:
 * ele remove uma modificação de um arquivo em que você deseja 
+# Git push:
+* envia as alterações para o repositório remoto 
+# Git pull:
+* faz a copia atualizada do repositório remoto
 
