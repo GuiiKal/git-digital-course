@@ -71,11 +71,25 @@ ol{
 
 /*Box*/
 .box{
-    height: 100px;
-    width: 200px;
-    border: 1px solid #0c595c;
+    height: 10rem;
+    width: 20rem;
+    border: 3px solid #0c595c;
     display: inline-block; /*se um elemento for desse display, e tiver espaço, fica um elemento ao lado do outro*/
-    padding: 30px; /*margem interna*/
-    margin: 30px; /*marge externa*/
+    padding: 1.5rem; /*margem interna*/
+    margin: 1.5rem; /*marge externa*/
+    border-radius: 0.4rem;
+    font-size: 2rem;
+    color: #ffffff;
+    background-color: #000000;
+    position: relative;
+}
 
+.box:nth-child(1), .box:nth-child(2){
+
+}
+.box:nth-child(3){
+
+}
+.box p {
+    display: inline;
 }
