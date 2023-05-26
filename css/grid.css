@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-size: 62.5%;
+}
+
+.page-content{
+    height: 85vh;
+
+}
+.page-content h1 {
+    font-size: 5.1rem;
+}
+.page-content h1 p + p {
+    color: #52b69a;
+}
+
+main{
+    display: inline-block;
+    margin: 0px;
+    padding: 45px;
+}
+aside{
+    border: 1px solid #1e4439;
+    border-radius: 1px;
+    display: inline-block;
+    width: 500px;
+    height: 350px;
+    margin: 150px;
+    padding: 45px;
+}
+main {
+    grid-area: title;
+}
+
+aside {
+    grid-area: login;
+}
+
+footer {
+    grid-area: footer;
+}
+
+@media screen and(min-width: 1024px) {
+    .page-content {
+        display: grid;
+        gap: 10rem 0;
+        grid-template-areas:
+            ". . . . . "
+            ". title login login ."
+            ". title login login ."
+            ". title login login ."
+            ". . . . . "
+            "footer footer footer footer footer"
+        ;
+    }
+}

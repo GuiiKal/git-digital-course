@@ -9,6 +9,13 @@
 body{
     font-family: 'Times New Roman', Times, serif;
 }
+/*  
+Jeitos de sumir com alguma coisa da tela 
+h1{
+    display: none;
+    visibility: hidden;
+    opacity: .4;
+} */
 h1{
 color: #5f9ea0;
 font-size: 5.5rem;
@@ -92,4 +99,17 @@ ol{
 }
 .box p {
     display: inline;
+}
+
+/*Responsividade*/
+@media screen and(min-wifth: 1000px){
+    .bg{
+        height: 40vh;
+    }    
+}
+
+@media print {
+    .bg{
+        display: none;
+    }
 }
