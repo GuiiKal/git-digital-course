@@ -23,3 +23,4 @@ console.log(num === '10') //aqui ele compara o conteúdo e o tipo da variável
 
 console.log(num != 10) //aqui ele compompara somente o conteúdo 
 console.log(num !== '10') //aqui ele compara o conteúdo e o tipo da variável 
+
