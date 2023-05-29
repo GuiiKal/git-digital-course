@@ -1,11 +1,5 @@
-if (50 > 100) {
-    console.log("Falta um tanto");
-  } else {
-    if ("1" == "-1") {
-      console.log("Quase lá");    
-    }
-  
-    if (!null) {
-      console.log("Sucesso");
-    }
-  }
+console.log('arr1', arr1)
+console.log('arr2',arr2)
+
+console.log(arr1.concat(arr2))
+console.log(arr2.concat(arr1))
